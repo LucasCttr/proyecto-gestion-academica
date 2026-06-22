@@ -31,3 +31,29 @@ build/
 
 ### VS Code ###
 .vscode/
+
+
+# --- General ---
+.DS_Store
+*.log
+*.tmp
+.idea/
+.vscode/
+
+
+# --- Backend (Spring Boot / Maven) ---
+/backend/target/
+/backend/.gradle/
+/backend/build/
+/backend/.settings/
+/backend/.classpath
+/backend/.project
+
+
+# --- Frontend (Angular / Node) ---
+/frontend/node_modules/
+/frontend/dist/
+/frontend/tmp/
+/frontend/.angular/
+/frontend/.cache/
+/frontend/.sass-cache/
